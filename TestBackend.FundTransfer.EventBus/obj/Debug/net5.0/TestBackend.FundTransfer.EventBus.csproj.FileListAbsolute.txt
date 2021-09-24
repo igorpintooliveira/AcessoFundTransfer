@@ -1,0 +1,12 @@
+C:\@Qintess\Projetos\Teste\Acesso\Igor.Acesso.TestBackend\TestBackend.FundTransfer\TestBackend.FundTransfer.EventBus\bin\Debug\net5.0\TestBackend.FundTransfer.EventBus.deps.json
+C:\@Qintess\Projetos\Teste\Acesso\Igor.Acesso.TestBackend\TestBackend.FundTransfer\TestBackend.FundTransfer.EventBus\bin\Debug\net5.0\TestBackend.FundTransfer.EventBus.dll
+C:\@Qintess\Projetos\Teste\Acesso\Igor.Acesso.TestBackend\TestBackend.FundTransfer\TestBackend.FundTransfer.EventBus\bin\Debug\net5.0\ref\TestBackend.FundTransfer.EventBus.dll
+C:\@Qintess\Projetos\Teste\Acesso\Igor.Acesso.TestBackend\TestBackend.FundTransfer\TestBackend.FundTransfer.EventBus\bin\Debug\net5.0\TestBackend.FundTransfer.EventBus.pdb
+C:\@Qintess\Projetos\Teste\Acesso\Igor.Acesso.TestBackend\TestBackend.FundTransfer\TestBackend.FundTransfer.EventBus\obj\Debug\net5.0\TestBackend.FundTransfer.EventBus.csproj.AssemblyReference.cache
+C:\@Qintess\Projetos\Teste\Acesso\Igor.Acesso.TestBackend\TestBackend.FundTransfer\TestBackend.FundTransfer.EventBus\obj\Debug\net5.0\TestBackend.FundTransfer.EventBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\@Qintess\Projetos\Teste\Acesso\Igor.Acesso.TestBackend\TestBackend.FundTransfer\TestBackend.FundTransfer.EventBus\obj\Debug\net5.0\TestBackend.FundTransfer.EventBus.AssemblyInfoInputs.cache
+C:\@Qintess\Projetos\Teste\Acesso\Igor.Acesso.TestBackend\TestBackend.FundTransfer\TestBackend.FundTransfer.EventBus\obj\Debug\net5.0\TestBackend.FundTransfer.EventBus.AssemblyInfo.cs
+C:\@Qintess\Projetos\Teste\Acesso\Igor.Acesso.TestBackend\TestBackend.FundTransfer\TestBackend.FundTransfer.EventBus\obj\Debug\net5.0\TestBackend.FundTransfer.EventBus.csproj.CoreCompileInputs.cache
+C:\@Qintess\Projetos\Teste\Acesso\Igor.Acesso.TestBackend\TestBackend.FundTransfer\TestBackend.FundTransfer.EventBus\obj\Debug\net5.0\TestBackend.FundTransfer.EventBus.dll
+C:\@Qintess\Projetos\Teste\Acesso\Igor.Acesso.TestBackend\TestBackend.FundTransfer\TestBackend.FundTransfer.EventBus\obj\Debug\net5.0\ref\TestBackend.FundTransfer.EventBus.dll
+C:\@Qintess\Projetos\Teste\Acesso\Igor.Acesso.TestBackend\TestBackend.FundTransfer\TestBackend.FundTransfer.EventBus\obj\Debug\net5.0\TestBackend.FundTransfer.EventBus.pdb

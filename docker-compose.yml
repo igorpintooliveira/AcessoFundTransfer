@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  testbackend.fundtransfer.api:
+    image: ${DOCKER_REGISTRY-}testbackendfundtransferapi
+    build:
+      context: .
+      dockerfile: TestBackend.FundTransfer.API/Dockerfile
+
+  testbackend.fundtransfer.api.consumer:
+    image: ${DOCKER_REGISTRY-}testbackendfundtransferapiconsumer
+    build:
+      context: .
+      dockerfile: TestBackend.FundTransfer.API.Consumer/Dockerfile
+

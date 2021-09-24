@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "serviceActions": {
+        "testbackend.fundtransfer.api": "StartDebugging",
+        "testbackend.fundtransfer.api.consumer": "StartDebugging"
+      },
+      "commandVersion": "1.0"
+    }
+  }
+}

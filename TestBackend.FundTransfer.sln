@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBackend.FundTransfer.API", "TestBackend.FundTransfer.API\TestBackend.FundTransfer.API.csproj", "{497BD6FD-61B8-4FF6-B623-8D8DB238BDE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBackend.FundTransfer.Application", "TestBackend.FundTransfer.Application\TestBackend.FundTransfer.Application.csproj", "{27F4AE6E-3F52-425C-8E99-9F8CE088B88B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBackend.FundTransfer.Domain", "TestBackend.FundTransfer.Domain\TestBackend.FundTransfer.Domain.csproj", "{6FBC49A7-0BB2-442F-937A-2A7258BB0C8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBackend.FundTransfer.Infrastructure.Redis", "TestBackend.FundTransfer.Infrastructure\TestBackend.FundTransfer.Infrastructure.Redis.csproj", "{7D9C7420-D5B0-4743-99CA-EB625E8B5527}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBackend.FundTransfer.EventBus", "TestBackend.FundTransfer.EventBus\TestBackend.FundTransfer.EventBus.csproj", "{D091C56E-1F06-48E8-8B3A-FBE57957A2F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBackend.FundTransfer.API.Consumer", "TestBackend.FundTransfer.API.Consumer\TestBackend.FundTransfer.API.Consumer.csproj", "{7068C298-0C69-4A4A-AA9E-2D6D37ADAFEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBackend.FundTransfer.Infrastructure.Mongo", "TestBackend.FundTransfer.Infrastructure.Mongo\TestBackend.FundTransfer.Infrastructure.Mongo.csproj", "{23E79BC1-D3EE-425E-A752-BC3C6773BE74}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{07B4676D-C138-46BE-80EB-FC2A628CCFE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBackend.FundTransfer.Commom.Logging", "TestBackend.FundTransfer.Commom.Logging\TestBackend.FundTransfer.Commom.Logging.csproj", "{827197E6-DF1E-4521-B0A4-1ADBECC0BEBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{497BD6FD-61B8-4FF6-B623-8D8DB238BDE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497BD6FD-61B8-4FF6-B623-8D8DB238BDE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497BD6FD-61B8-4FF6-B623-8D8DB238BDE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497BD6FD-61B8-4FF6-B623-8D8DB238BDE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F4AE6E-3F52-425C-8E99-9F8CE088B88B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F4AE6E-3F52-425C-8E99-9F8CE088B88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F4AE6E-3F52-425C-8E99-9F8CE088B88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F4AE6E-3F52-425C-8E99-9F8CE088B88B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FBC49A7-0BB2-442F-937A-2A7258BB0C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBC49A7-0BB2-442F-937A-2A7258BB0C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FBC49A7-0BB2-442F-937A-2A7258BB0C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FBC49A7-0BB2-442F-937A-2A7258BB0C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9C7420-D5B0-4743-99CA-EB625E8B5527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9C7420-D5B0-4743-99CA-EB625E8B5527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9C7420-D5B0-4743-99CA-EB625E8B5527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9C7420-D5B0-4743-99CA-EB625E8B5527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D091C56E-1F06-48E8-8B3A-FBE57957A2F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D091C56E-1F06-48E8-8B3A-FBE57957A2F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D091C56E-1F06-48E8-8B3A-FBE57957A2F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D091C56E-1F06-48E8-8B3A-FBE57957A2F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7068C298-0C69-4A4A-AA9E-2D6D37ADAFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7068C298-0C69-4A4A-AA9E-2D6D37ADAFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7068C298-0C69-4A4A-AA9E-2D6D37ADAFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7068C298-0C69-4A4A-AA9E-2D6D37ADAFEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E79BC1-D3EE-425E-A752-BC3C6773BE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E79BC1-D3EE-425E-A752-BC3C6773BE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E79BC1-D3EE-425E-A752-BC3C6773BE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E79BC1-D3EE-425E-A752-BC3C6773BE74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B4676D-C138-46BE-80EB-FC2A628CCFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B4676D-C138-46BE-80EB-FC2A628CCFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B4676D-C138-46BE-80EB-FC2A628CCFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B4676D-C138-46BE-80EB-FC2A628CCFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{827197E6-DF1E-4521-B0A4-1ADBECC0BEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827197E6-DF1E-4521-B0A4-1ADBECC0BEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827197E6-DF1E-4521-B0A4-1ADBECC0BEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827197E6-DF1E-4521-B0A4-1ADBECC0BEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C88BD584-1782-4B04-BBFF-264BDA4D744B}
+	EndGlobalSection
+EndGlobal
