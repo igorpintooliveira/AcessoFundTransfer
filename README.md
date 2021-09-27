@@ -1,5 +1,10 @@
 # Acesso Fund-Transfer Test
+
 Fund-Transfer test using microservices, MongoDb, RabbitMQ, ElasticSearch
+
+==== ACESSO TEST =====
+
+docker run -d --name fund-transfer-byAcesso -p 5000:80 baldini/testacesso
 
 ==== REDIS =====
 
