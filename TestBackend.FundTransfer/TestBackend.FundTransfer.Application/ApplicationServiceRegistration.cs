@@ -24,6 +24,7 @@ namespace TestBackend.FundTransfer.Application
             services.AddMediatR(Assembly.GetExecutingAssembly());
 
             services.AddScoped<IFundTransferBusiness, FundTransferBusiness>();
+            services.AddTransient<LoggingDelegatingHandler>();
             services.AddHttpClient<IPartnerAcessoBusiness, PartnerAcessoBusiness>(c =>
                 c.BaseAddress = new Uri(configuration["AcessoEndpointSettings:BaseUrl"]))
                 .AddHttpMessageHandler<LoggingDelegatingHandler>()

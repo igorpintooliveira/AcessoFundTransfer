@@ -29,14 +29,6 @@ namespace TestBackend.FundTransfer.Application.Command
             // needs more attention and implementation
 
             return await _fundTransferBusiness.ExecuterTransferAsync(fundTransferCommand);
-
-
-            // criar logica para fazer a transferência usando api da acesso
-            //var orderEntity = _mapper.Map<Order>(request);
-            //var newOrder = await _orderRepository.AddAsync(orderEntity);
-
-            //_logger.LogInformation($"Order {newOrder.Id} is successfully created.");
-
            
         }
     }
